@@ -1,6 +1,7 @@
 #ifndef _ACTUALIZAR_
 #define _ACTUALIZAR_
 
+#include "Especial.h"
 
 int actualizar(Tablero tab,Movimiento mov)
 /*Genera nuevo estado del tablero despues de la verificacion del

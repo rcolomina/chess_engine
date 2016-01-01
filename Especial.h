@@ -2,6 +2,7 @@
 #define __ESPECIAL__
 
 #include "Tipos.h"
+#include "Cabfunc.h"
 
 int mov_enrroque1(Variante var)
 /*En entrada: Variante con movimiento del rey

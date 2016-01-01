@@ -1,6 +1,12 @@
 #ifndef __BUSQUEDA__
 #define __BUSQUEDA__
-    
+
+#include "Evalua.h"
+
+int evalua_variante(Tablero tab,Variante var);
+int exp_j_cj(Tablero tab,Variantes var,Jugador jug);
+int maxima(Variantes variantes);
+
 int movimiento_variantes(Tablero tab,Variantes variantes,Jugador jugador)
 /*
 En entrada:El tablero y un vector para guardar las variantes posibles en una jugada
@@ -105,7 +111,8 @@ int maxima(Variantes variantes)
 	  i=0;
 	  while(i<MAX && variantes[i].piezini.clase!=vacio)
 	  {
-			 if(variantes[i].valor>=max)max=variantes[i].valor;
+			 if(variantes[i].valor>=max)
+			   max=variantes[i].valor;
 			 i++;
 	  }
 	  return max;

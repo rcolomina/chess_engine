@@ -49,7 +49,7 @@ int generar_posicion_inicial(Tablero tablero)
 	  tablero[1][5].pieza.clase=rey;
 	  tablero[8][4].pieza.clase=reina;
 	  tablero[8][5].pieza.clase=rey;
-	  return;
+	  return 0;
 }
 
 int generar_tablero_antiguo(Tablero tablero2,Secuencia sec_blancas,Secuencia sec_negras,Color color_jugador,int anterior)
@@ -70,7 +70,7 @@ que marque las secuencias almacenadas hasta la jugada 'anterior' */
 			 {actualizar(tablero2,sec_blancas[i]);
 					actualizar(tablero2,sec_negras[i]);}
      }
-	  return;
+	  return 0;
 }
 
 #endif

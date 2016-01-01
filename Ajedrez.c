@@ -43,7 +43,7 @@ int jaque_mate(Tablero tablero,Color color_rey);
 #include "LectEscr.h"
 #include "Ficheros.h"
 
-main()
+int main()
 {
 /*Declaración de variables*/
 int i,j,n,log,mate,color_jugador,bonus,nodo_padre;
@@ -293,5 +293,7 @@ do{printf("\n-------------------------------------------------------------");
 }while(car!='q' && car!='Q');
 
 
+ return 0;
+ 
 }
 
