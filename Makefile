@@ -1,18 +1,18 @@
 CC= gcc
-CFLAGS = -g 
-TARGET = prog_ajedrez
+CFLAGS = -g
+TARGET = chess
 MAIN = main
 
-OBJS = $(ls *.h | sed s/"\.h"/"\.o"/)
+#OBJS = $(shell ls *.h | sed s/"\.h"/"\.o"/)
+FILES_H = $(shell ls *.h)
 
-all: $(TARGET) Ajedrez.c $(OBJS)
+all: $(TARGET)
 
-$(TARGET) : Ajedrez.c $(OBJS)
-	$(CC) $(CFLAGS) $^ -o $(TARGET) 
+$(TARGET) : Ajedrez.o $(FILES_H)
+	$(CC) -o $(TARGET) Ajedrez.o 
 
-%.o : %.h
-	$(CC) $(CFLAGS) -c $< -o $@
+%.o : %.c
+	$(CC) $(CFLAGS) -c $^ -o $@
 
 clean:
-	rm $(TARGET)
-
+	rm $(TARGET) $(shell ls *.o)
