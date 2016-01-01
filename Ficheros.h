@@ -1,6 +1,13 @@
 #ifndef _FICHEROS_
 #define _FICHEROS_
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+
+#include "Tipos.h"
+
 int escribir_fichero_tablero(Tablero tab,Jugador jugador,int turno)
 /*
 En entrada: Un tablero, color del jugador que juega y turno

@@ -1,10 +1,15 @@
 #ifndef __EVALUA__
 #define __EVALUA__
 
+
+#include "Tipos.h"
 #include "Busqueda.h"
 
 int lugar_variante_maximo(Variantes variantes);
 int material_piezas_jugador(Tablero tab,Jugador jugador);
+int mov_enrroque(Movimiento mov);
+int jaque_rey(Tablero tablero,Movimiento movimiento);
+
 
 int evalua_variante(Tablero tab,Variante var)
 /*En entrada: Tablero,movimiento y una variante.

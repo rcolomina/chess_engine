@@ -1,6 +1,10 @@
 #ifndef __TIPOS__
 #define __TIPOS__
 
+/*Indicara 1 si el enrroque es posible*/
+int token_blancas_enrroque_iz=1,token_negras_enrroque_iz=1;
+int token_blancas_enrroque_id=1,token_negras_enrroque_id=1;
+
 #define MAX 150
 #define NUM 10
 #define INFINITO 50000

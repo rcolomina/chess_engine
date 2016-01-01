@@ -1,6 +1,8 @@
 #ifndef __AJEDREZ__
 #define __AJEDREZ__
 
+#include "Tipos.h"
+
 int movimiento_rey(Tablero tablero,Movimiento movimiento)
 /*
   En entrada: Tablero y un movimiento de rey

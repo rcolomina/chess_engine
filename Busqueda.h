@@ -1,6 +1,8 @@
 #ifndef __BUSQUEDA__
 #define __BUSQUEDA__
 
+#include <stdio.h>
+
 #include "Evalua.h"
 
 int evalua_variante(Tablero tab,Variante var);

@@ -1,6 +1,8 @@
 #ifndef __JAQUES__
 #define __JAQUES__
 
+#include "Tipos.h"
+
 int jaque_rey(Tablero tablero,Movimiento movimiento)
 /*En entrada: Movimento ya validado por las funciones movimiento_pieza
   y proteccion_rey

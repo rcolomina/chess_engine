@@ -1,6 +1,8 @@
 #ifndef __GENINIC__
 #define __GENINIC__
 
+#include "Tipos.h"
+
 int generar_posicion_inicial(Tablero tablero)
 /*
   En entrada:Un 'tablero'

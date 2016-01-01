@@ -8,10 +8,6 @@
 #include <math.h>
 #include <time.h>
 
-/*Indicara 1 si el enrroque es posible*/
-int token_blancas_enrroque_iz=1,token_negras_enrroque_iz=1;
-int token_blancas_enrroque_id=1,token_negras_enrroque_id=1;
-
 #include "Tipos.h"
 
 /*

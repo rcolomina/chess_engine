@@ -1,6 +1,10 @@
 #ifndef __PINTATAB__
 #define __PINTATAB__
 
+#include <stdio.h>
+
+#include "Tipos.h"
+
 int pintar_tablero(Tablero tablero)
 /*Pintamos el tablero segun el estado del 'tablero'*/
 {

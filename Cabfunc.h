@@ -1,6 +1,8 @@
 #ifndef __CABFUNC__
 #define __CABFUNC__
 
+#include "Tipos.h"
+
 int validar_movimiento(Tablero tablero,Movimiento movimiento);
 int actualizar(Tablero tablero,Movimiento movimiento);
 int lee_pos(Secuencia secuencia,int k);

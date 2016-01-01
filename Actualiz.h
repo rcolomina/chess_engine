@@ -1,6 +1,7 @@
 #ifndef _ACTUALIZAR_
 #define _ACTUALIZAR_
 
+#include "Tipos.h"
 #include "Especial.h"
 
 int actualizar(Tablero tab,Movimiento mov)

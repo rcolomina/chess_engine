@@ -1,6 +1,10 @@
 #ifndef __LECTESCR__
 #define __LECTESCR__
 
+#include <stdio.h>
+
+#include "Tipos.h"
+
 int lee_pos(Secuencia sec,int turno)
 /*En entrada:El turno turno
   En salida: Secuencia con las posiciones de inicio y llegada de un
